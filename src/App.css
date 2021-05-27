@@ -6,9 +6,20 @@
   position: fixed;
   bottom: 0;
   z-index: 1;
-  width: 100%;
-  margin: 20px;
+  width: 80%;
+  margin: 20px 30px 20px 30px;
+  border-radius: 80px;
    /* display: flex; */
   /* flex-direction: column; */
-  background-color: #e9e9eb; 
+  background-color: rgb(233, 233, 235); 
+}
+.app__formControl {
+  display: flex !important;
+flex-direction: row !important;
+}
+.app__input {
+  flex: 1;
+}
+.app__iconButton {
+  flex: 0;
 }

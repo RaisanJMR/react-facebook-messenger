@@ -45,12 +45,13 @@ function App() {
   return (
     <div className="App">
       <img src={Logo} alt="logo" width="100" height="100"/>
-      <h1>Facebook messenger Clone with reactJS 🚀🚀 firebase</h1>
+      <h1>chat with your friends!!</h1>
       <h2>Welcome {username}</h2>
       <form className="app__form">
-        <FormControl>
-          <InputLabel>Enter message</InputLabel>
+        <FormControl className="app__formControl">
           <Input
+          className="app__input"
+          placeholder="Enter a message..."
             type="text"
             value={input}
             onChange={({ target }) => {
@@ -61,6 +62,7 @@ function App() {
  
 
           <IconButton
+          className="app__iconButton"
             disabled={!input}
             variant="contained"
             color="primary"

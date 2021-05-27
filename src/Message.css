@@ -2,7 +2,6 @@
   padding: 10px;
   margin: 10px;
   width: fit-content;
-  
 }
 .message__user {
   margin-left: auto;
@@ -15,4 +14,11 @@
 .message__guestCard {
   background-color: #e9e9eb !important;
 }
-
+@media (max-width: 600px) {
+  .MuiTypography-h5 {
+    font-size: 10px !important;
+  }
+  .MuiCardContent-root {
+    padding: 5px !important;
+  }
+}
